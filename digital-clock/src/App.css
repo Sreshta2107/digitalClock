@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+.clock {
+  text-align: center;
+  padding-top: 100px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.timer {
+  font-size: 70px;
+  font-weight: bold;
+  font-family: monospace;
+  margin: 40px 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.buttons button {
+  width: 160px;
+  height: 70px;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.start {
+  background-color: green;
+  color: white;
+}
+
+.pause {
+  background-color: orange;
+  color: white;
+}
+
+.stop {
+  background-color: red;
+  color: white;
+}
